@@ -1,0 +1,33 @@
+{
+  "name": "reach-inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarezKwiup/reach-inbox-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarezKwiup/reach-inbox-assignment/issues"
+  },
+  "homepage": "https://github.com/MarezKwiup/reach-inbox-assignment#readme",
+  "dependencies": {
+    "@azure/msal-node": "^2.9.2",
+    "bullmq": "^5.8.2",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.52.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
